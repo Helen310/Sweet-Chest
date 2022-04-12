@@ -53,7 +53,7 @@
    
     <div class="menu">
         <div class="container">
-            <div class="menu__haeder">
+            <div class="menu__header">
                 <a name="down"></a>
                 <h1 class="menu__title">Для любых событий и дорогих вам людей
                 </h1>
@@ -206,17 +206,55 @@
 
     <div class="feedback">
         <div class="container">
-            <div class="feedback__haeder">
+            <div class="feedback__header">
                 <h1 class="feedback__title">Почитайте отзывы довольных клиентов
                 </h1>
+            </div> 
+
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="inner-feedback">
+                <img class="slide-feedback" src="images/feedback/feedback1.jpg" alt="">
+                </div>
+                <div class="text"> 
+                    "Результат дико порадовал, друзья были в восторге"
+                </div>
             </div>
-        </div>
-    </div>
+            <div class="mySlides fade">
+                <div class="inner-feedback">
+                <img class="slide-feedback" src="images/feedback/feedback2.jpg" alt="">
+                </div>
+                    <div class="text">
+                    "Результат дико порадовал, друзья были в восторге"
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <div class="inner-feedback">
+                <img class="slide-feedback" src="images/feedback/feedback3.jpg" alt="">
+                </div>
+                <div class="text">
+                    "Результат дико порадовал, друзья были в восторге"
+                </div>
+            </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+                <a class="next" onclick="plusSlides(1)">&#10095</a>           
+            </div>
+            <br>
+
+            <div style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1) "></span>
+            <span class="dot" onclick="currentSlide(2) "></span>
+            <span class="dot" onclick="currentSlide(3) "></span>
+            </div>
+        </div>     
+    </div>   
+   
 
 
     <div class="instagram">
         <div class="container">
-            <div class="instgram__haeder">
+            <div class="instgram__header">
             <h1 class="instagram__title">Сделали более 3.000 заказов за 2 года
             </h1>
             <h2 class="instagram__text">Посмотрите фото реальных заказов из нашего instagram
@@ -284,6 +322,7 @@
         </div> 
     </div>
 
+ <script src="script.js"></script>
 
 </body>
 </html>
